@@ -1,0 +1,13 @@
+.main-nav{
+    ul{
+        display: flex;
+        justify-content: end;
+
+    }
+    a{
+        margin: 0 1rem;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+}
