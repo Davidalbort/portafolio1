@@ -4,7 +4,7 @@ function Footer(paragraph) {
     return(
         <footer>
             <LinkedIcon/>
-            <p>© 2022 Roger David Alba Ortega All Rights Reserved.</p>
+            <p>© 2022 Roger David Alba Ortega todos los derechos reservados.</p>
         </footer>
     )
 }
