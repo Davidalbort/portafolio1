@@ -1,10 +1,11 @@
 import '../../assets/icons/font-awesome.css'
+import styles from '../../styles/components/LinkedIcon.module.scss';
 
 function LinkedIcon({list}){
     const createLinkedIcon = list.map(linkedIcon => <a href={linkedIcon.iconLink}><i className={linkedIcon.icon}></i></a>); 
     
     return(
-        <div className='container-linkedIcon'>
+        <div className={styles.container}>
         {createLinkedIcon}
         </div>
     )

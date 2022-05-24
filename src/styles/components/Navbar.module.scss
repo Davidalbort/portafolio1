@@ -1,4 +1,6 @@
-.main-nav{
+@import'../abstracts/colors';
+
+.container{
     ul{
         display: flex;
         justify-content: end;
@@ -9,5 +11,8 @@
         list-style: none;
         text-decoration: none;
         color: black;
+        &:hover{
+            border-bottom: solid;
+        }
     }
 }

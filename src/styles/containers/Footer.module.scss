@@ -1,0 +1,14 @@
+@import '../abstracts/colors';
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: clamp(36rem,100%,136rem);
+    font-size: clamp(1.0rem,2vw,3rem);
+    padding: clamp(0.2rem,2vw,2rem);
+    background-color: white ;
+    border-top: solid 0.1rem;
+    border-color: $primary-gray;
+}
