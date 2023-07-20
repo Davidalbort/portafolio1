@@ -1,0 +1,145 @@
+@import '../abstracts/colors';
+
+.container{
+    margin: 0 clamp(0.1rem,6vw,6rem);
+    padding: 0 clamp(0.1rem,4vw,4rem);
+    line-height: clamp(0.1rem,12vw,3rem);
+}
+
+.section{
+    padding-top: clamp(0.1rem,7vw,6rem);
+    margin: clamp(0.5rem,2vw,6rem);
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        padding-top: clamp(0.5rem,2vw,2rem);
+        font-size: 1.6rem;
+        color: $secundary-black;
+        
+        text-align: justify;
+    }
+    ul{
+        padding: 0 4rem;
+        font-size: 1.6rem;
+        
+        li{
+            color: $secundary-black;
+            a{
+                text-decoration: none;
+                color: $secundary-black;
+                &:hover{
+                    cursor: pointer;
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.name{
+    h1{
+        font-size: clamp(3rem,8vw,8rem);
+        line-height: clamp(0.1rem,12vw,8rem);
+    }
+    p{
+        font-size: clamp(1.6rem,4vw,3rem);
+        text-align: justify;
+        color: $secundary-black;
+    }
+}
+
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    figure{
+        display: flex;
+        justify-content: center;
+        img{
+            
+            padding-top: 2rem;
+            width: 20rem;
+            height: auto;
+        }
+
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        transform: rotate(0);
+        transition: .6s ease;
+        &:hover{
+
+            transform: rotate(360deg);
+        }
+        a{
+            text-decoration: none;
+            color: $secundary-black;
+            &:hover{
+                cursor: pointer;
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        color: $secundary-black;
+    }
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    font-size: clamp(1.0rem,4vw,3rem);
+    div{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        color: $secundary-black;
+        i{
+            display: flex;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+        a{
+            text-decoration: none;
+            color: $secundary-black;
+            &:hover{
+                cursor: pointer;
+                color: black;
+                transform: scale(0.8);
+            }
+        }
+    }
+}
+
+// .main{
+
+//     margin: 0 2rem;
+//     padding: 0 1rem;
+//     .main__section{
+//         padding: 10rem 0;
+//         margin: 0 6rem;
+//         h1{
+//             font-size: 3rem;
+//         }
+//         p{
+//             padding-top: 2rem;
+//             font-size: 1.6rem;
+//             color: #374151;
+//         }
+//         &.main__section--name{
+//             h1{
+//                 font-size: 6rem;
+//             }
+//             p{
+//                 font-size: 3rem;
+//             }
+//         }
+//     }
+// }

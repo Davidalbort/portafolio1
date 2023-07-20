@@ -1,0 +1,16 @@
+@import '../abstracts/colors';
+
+.container{
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: inherit;
+    i{
+
+        color: $secundary-black;
+        &:hover{
+            transform: scale(1.5);
+            color: black;
+        }
+    }
+}
