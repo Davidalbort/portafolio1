@@ -1,4 +1,4 @@
-[![Deployment Pipeline](https://github.com/Davidalbort/portfolio/actions/workflows/pipeline.yml/badge.svg)](https://github.com/Davidalbort/portfolio/actions/workflows/pipeline.yml)
+[![Deploy Next.js site to Pages](https://github.com/Davidalbort/portfolio/actions/workflows/nextjs.yml/badge.svg)](https://github.com/Davidalbort/portfolio/actions/workflows/nextjs.yml)
 
 # `Introduction`
 
