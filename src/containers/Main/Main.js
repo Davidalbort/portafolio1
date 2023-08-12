@@ -5,7 +5,6 @@ import { Location } from '@/components/Icon/Location'
 import { Email } from '@/components/Icon/Email'
 
 function Main() {
-  const sourceImage = require('../../components/Image/B-3x3.jpg')
   const textAlt = 'Imagen de presentación'
   const listIcon = [
     'Html',

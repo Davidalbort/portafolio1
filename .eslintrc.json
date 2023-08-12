@@ -5,7 +5,8 @@
     "indent": "off",
     "quotes": ["error", "single"],
     "semi": ["error", "never"],
-    "no-empty": "warn"
+    "no-empty": "warn",
+    "react/react-in-jsx-scope": "off"
   },
   "env": {
     "jest": true

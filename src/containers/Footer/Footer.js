@@ -2,7 +2,7 @@ import { Linkedin } from '@/components/Icon/Linkedin'
 import styles from '../../styles/containers/Footer.module.scss'
 import { Git } from '@/components/Icon/Git'
 
-function Footer(paragraph) {
+function Footer() {
   return (
     <footer className={styles.container}>
       <Linkedin />

@@ -1,3 +1,4 @@
 {
-  "*": ["eslint --fix", "eslint", "npm run prettier:check", "npm run test"]
+  "*": ["eslint --fix", "eslint", "npm run prettier:check", "npm run test"],
+  "*.js": ["eslint --fix", "eslint", "npm run prettier:check", "npm run test"]
 }
