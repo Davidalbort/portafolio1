@@ -2,3 +2,4 @@ node_modules
 .prettierignore
 .eslintignore
 pre-commit
+README.md

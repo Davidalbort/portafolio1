@@ -6,3 +6,4 @@ pre-commit
 .lintstagedrc
 .prettierignore
 tsconfig.json
+README.md

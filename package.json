@@ -10,7 +10,8 @@
     "prettier:check": "prettier --write",
     "test": "jest a",
     "test:watch": "jest a --watch",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@types/react-dom": "18.2.7",
