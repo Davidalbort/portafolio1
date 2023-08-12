@@ -1,0 +1,3 @@
+{
+  "*": ["eslint --fix", "eslint", "npm run prettier:check", "npm run test"]
+}
